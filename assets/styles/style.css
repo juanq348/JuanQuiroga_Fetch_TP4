@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #1F0322;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    justify-content: center;
+    background-color: #a54b75;
+    border: 5px solid #e496ba;
+    border-radius: 50px;
+}
+
+#output img{
+    border-radius: 20px;
+    max-width: 600px;
+}
+
+
+button{
+    margin-top: 20px;
+    background-color: #421c2e;
+    color: white;   
+    border-radius: 10px;
+}
