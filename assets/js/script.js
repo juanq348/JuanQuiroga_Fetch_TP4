@@ -1,4 +1,4 @@
-async function extraerDatos(){
+    async function extraerDatos(){
     const url = `https://random.dog/woof.json`;
 
     try{
@@ -12,8 +12,8 @@ async function extraerDatos(){
 }
 
 function mostrarDatos(imageURL){
-    const output = document.getElementById('output');
-    output.innerHTML= `<img src = "${imageURL}">`;
+    const imagen = document.getElementById('imagen'); //Obtiene al contenedor de la imagen
+    imagen.innerHTML= `<img src = "${imageURL}">`; // Se coloca la imagen en el contenedor
 } 
 
-extraerDatos();
+extraerDatos(); //Se ejecuta la función
